@@ -329,7 +329,7 @@ body {
 }
 
 .button-radius .icon:before {
-  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  font-family: "FontAwesome";
   content: "\f105";
   font-size: 14px;
   color: #fff;
@@ -1260,4 +1260,6 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Montserrat", sans-serif; }
+
+

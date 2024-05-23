@@ -33,8 +33,8 @@
       </h2>
 
       <div class="product-carousel-price">
-        <ins>{{ product.discount | currency }}</ins>
-        <del>{{ product.Price | currency }}</del>
+        <ins>{{ product.Price | currency:'S/.' }}</ins>
+        <del>{{ product.discount | currency:'S/.' }}</del>
       </div>
     </div>
   </div>

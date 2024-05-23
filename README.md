@@ -1,6 +1,6 @@
-# Angular ECommerce Front End
+# Angular MyEvent Front End
 
-E-Commerce Front-End website is developed using below Technologies:
+MyEvent Front-End website is developed using below Technologies:
 
 <ol>
 <li>Angular-17</li>
@@ -12,21 +12,7 @@ E-Commerce Front-End website is developed using below Technologies:
 <li>Css</li>
 <li>Json Server</li>
 <li>jasmine</li>
-</ol> 
-I have used Slick Carousel for this Project and customized it's css.
-Jquery is also used for some designs animations in the menu.
-A Fake jason server is used to fetch data from db file.
-The Website is fully Mobile Responsive.
-The Website enables the user to perform all e- commerce operations:
-<ol>
-  <li>Home Page Showing Top sellers ,reviews as well as Latetes Products.</li>
-     <li>Shop Page Showing All Products with option to Show Details or Add Product to cart .</li>
-     <li>Showing Detailed View of a Product Page with the option to view related Products .</li>
-    <li>Checkout Details Page with paying options and shipping details.</li>
-</ol>
 
-At the moment the User's Profile Page is under construction.
-A Screenshoot Folder is included to view Some Features.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="ticket-title">
+    <h1>Mis entradas</h1>
+  </div>
+  <div class="ticket-list">
+    <mat-card *ngFor="let ticket of tickets">
+      <mat-card-header>
+        <mat-card-title>{{ ticket.product.title }}</mat-card-title>
+        <mat-card-subtitle>{{ ticket.product.Price }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

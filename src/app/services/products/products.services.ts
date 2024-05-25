@@ -1,6 +1,9 @@
 import { Product } from '../../shared/models/Product';
 import { Injectable } from '@angular/core';
-@Injectable({ providedIn: 'root' })
+
+@Injectable({
+  providedIn: 'root'
+})
 export class ProductServices {
   productsURL = 'http://localhost:3000/products';
   constructor() {}

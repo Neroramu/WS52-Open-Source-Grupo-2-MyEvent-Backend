@@ -14,7 +14,7 @@ export class CartService {
     return this.cart;
   }
 
-  //Add to cart CREATE new Product  or update quantity
+  //Add to cart CREATE new Product or update quantity
   addToCart(product: Product, quantity: number = 1) {
     const existCartItem = this.cart.items.find(
       (cartitem) => cartitem.product.id == product.id
